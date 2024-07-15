@@ -1,0 +1,64 @@
+/* {}  [] */
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar .navbar-brand img{
+    width: 100px;
+    margin-left: 10px;
+    
+}
+
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.main{
+    padding: 20px;
+   max-height: 1000px;
+   margin-left: px;
+   margin-top: 70px;
+   margin-left: 50px;
+}
+
+.main .row{
+   
+    margin-bottom: 40px;
+    height: 100%;
+   
+}
+
+.movie-card{
+    margin-top: 10px;
+   max-width: 190px;
+    padding: 0;
+    transition: transform 0.5s ease;
+    height: 130px;
+   
+}
+
+.movie-card>img{
+    max-width: 100%;
+    
+    
+}
+
+.movie-card:hover{
+    transform: scale(1.2);
+    max-width: none;
+   overflow: none;
+}
+
+.genre{
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 0;
+   border: solid white;
+}
